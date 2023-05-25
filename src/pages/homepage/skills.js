@@ -11,10 +11,10 @@ const Skills = () => {
       'NodeJS', 'MongoDB'
     ],
     frameworks: [
-      'React', 'Express'
+      'React', 'Express', 'node-shedule', 'multer', 'Vue 3'
     ],
     other: [
-      'HTML', 'CSS', 'SCSS', 'AJAX'
+      'HTML', 'CSS', 'SCSS', 'AJAX','REST', 'CRUD'
     ],
     tools: [
       'Git', 'VScode', 'Figma'
