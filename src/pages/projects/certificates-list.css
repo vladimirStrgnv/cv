@@ -1,0 +1,16 @@
+.certificates__certificate-list {
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.certificates__certificate-list-item {
+    margin-bottom: 10px;
+}
+
+.certificates__title {
+    margin-bottom: 10px;
+    font-family: 'Gilroy-Bold';
+    font-size: 2.4rem;
+}

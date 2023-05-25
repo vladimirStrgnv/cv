@@ -1,0 +1,17 @@
+.skill {
+    width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(240, 233, 233);
+}
+
+.skill__title {
+    border-bottom:solid 2px rgb(240, 233, 233);
+    font-size: 1.8rem;
+}
+
+.skill__descrpt {
+    font-family: 'Gilroy-Regular';
+    font-size: 1.4rem;
+}

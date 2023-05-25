@@ -1,0 +1,45 @@
+
+body:before, .animate:after {
+    background-image: radial-gradient(var(--dot-color) 1.5px, transparent 2px);
+    background-size: var(--point-gap-width) var(--point-gap-height);
+    background-position: calc(var(--point-gap-width) / 2) calc(var(--point-gap-height) / 2);
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+body:before {
+    animation: 3.2s linear move infinite;
+}
+
+
+
+@keyframes move {
+    0% {
+        background-position: calc(var(--point-gap-width) / 2) calc(var(--point-gap-height) / 2);
+    }
+
+    100% {
+        background-position: calc(var(--point-gap-width) / 2) calc(var(--point-gap-height) / 2 * -1);
+    }
+}
+
+
+.block {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+.block-show {
+    opacity: 1;
+}

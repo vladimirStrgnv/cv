@@ -1,0 +1,15 @@
+.skills {
+    padding-bottom: 30px;
+}
+
+.skills__title {
+    margin-bottom: 20px;
+    font-family: 'Gilroy-Bold';
+    font-size: 2rem;
+}
+
+.skills__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

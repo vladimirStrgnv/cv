@@ -1,0 +1,23 @@
+.projects-cards {
+    padding-bottom: 50px;
+}
+
+.projects__header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__header h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 2rem;
+
+}
+
+.projects__cards-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}

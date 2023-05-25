@@ -1,0 +1,8 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__links-list {
+    display: flex;
+}
