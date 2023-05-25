@@ -13,3 +13,37 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+
+@media (max-width: 1220px) {
+
+    .skills__title {
+        margin-bottom: 20px;
+        font-family: 'Gilroy-Bold';
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .skills__list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .skills__list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills__title {
+        margin-bottom: 20px;
+        font-family: 'Gilroy-Bold';
+        font-size: 2rem;
+        text-align: center;
+    }
+}

@@ -25,7 +25,7 @@ const Footer = () => {
             <a href='https://rostov.hh.ru/applicant/resumes?hhtmFrom=settings&hhtmFromLabel=header'><HandySvg src={hh} className="footer__icon" width="50" height="50" /></a>
           </li>
         </ul>
-        <div className="footer_author">© Выполнил vladimirStrgnv 2023</div>
+        <div className="footer_author">© Выполнил Владимир Строгонов 2023</div>
       </div>
     </footer>
   );

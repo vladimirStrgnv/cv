@@ -9,31 +9,9 @@
     max-width: 1000px;
     width: 75%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
-.example-enter {
-    opacity: 0.01;
-}
 
-.example-enter.example-enter-active {
-    opacity: 1;
-    transition: opacity 500ms ease-in;
-}
 
-.example-leave {
-    opacity: 1;
-}
 
-.example-leave.example-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
-}
-
-.block {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-.block-show {
-    opacity: 1;
-}

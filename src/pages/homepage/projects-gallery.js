@@ -10,24 +10,24 @@ const Projects = () => {
   return (
     <div className="projects-cards">
       <div className="projects__header">
-        <h2>Проекты</h2>
+        <h2 className="projects__header-title">Проекты</h2>
         <Button text="Посмотреть все проекты" path="projects"></Button>
       </div>
       <div className="projects__cards-list">
         <GalleryCard
-          src={lang}
-          descrpt={"Виджет для уведомлений в AMO crm"}
-          link={"/projects/notif"}
-        ></GalleryCard>
-        <GalleryCard
           src={notif}
-          descrpt={"Виджет для отправки почты AMO crm"}
-          link={"/projects/mails"}
+          descrpt={"Виджет для уведомлений в AMO crm"}
+          link={"projects/notif"}
         ></GalleryCard>
         <GalleryCard
           src={postman}
+          descrpt={"Виджет для отправки почты AMO crm"}
+          link={"projects/mails"}
+        ></GalleryCard>
+        <GalleryCard
+          src={lang}
           descrpt={"Приложение для изучения языка со сбором статистики"}
-          link={"/projects/lang"}
+          link={"projects/lang"}
         ></GalleryCard>
       </div>
     </div>

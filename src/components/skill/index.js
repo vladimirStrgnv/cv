@@ -3,10 +3,12 @@ import './index.css';
 
 const Skill = (props) => {
   return (
-    <li className='skill'>
-        <h2 className='skill__title'>{props.title}</h2>
-        <p className='skill__descrpt'>{props.descrpt}</p>
-    </li>
+    <div className='skill'>
+      <h2 className='skill__title'>{props.title}</h2>
+      <ul className='skill__list'>
+        {props.skills.map((skill, idnex) => <li className='skill__list-item' key={idnex}>{skill}</li>)}
+      </ul>
+    </div>
   )
 }
 

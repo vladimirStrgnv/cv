@@ -19,5 +19,45 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
+}
 
+@media (max-width: 1220px) {
+    .projects__cards-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .projects__header {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects__header-title {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .projects__cards-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .projects__header {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
 }
