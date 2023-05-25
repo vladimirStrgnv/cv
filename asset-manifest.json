@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.f8ffd697.css",
+    "main.js": "/cv/static/js/main.4219d861.js",
+    "static/media/lang.jpg": "/cv/static/media/lang.c6cf6659c5e2a1e36838.jpg",
+    "static/media/certificate2.png": "/cv/static/media/certificate2.e889fa119c6b30163a8f.png",
+    "static/media/certificate1.png": "/cv/static/media/certificate1.efe582702435b3ce7da5.png",
+    "static/media/postman.jpg": "/cv/static/media/postman.4e6fc53c9ee479bc6a6f.jpg",
+    "static/media/notif.jpg": "/cv/static/media/notif.e7f1c5813ccc66d3e62c.jpg",
+    "static/media/codewars.svg": "/cv/static/media/codewars.8cb4193dc5c127df8ee1bdc8bb8364e1.svg",
+    "static/media/gmail.svg": "/cv/static/media/gmail.8f53284589214a919c14dc0d23dc1256.svg",
+    "static/media/whtsp.svg": "/cv/static/media/whtsp.57b12149de37a69793728e55de6947a3.svg",
+    "static/media/hh.svg": "/cv/static/media/hh.24b486f5b8a4916a76b1baca15572fda.svg",
+    "static/media/github.svg": "/cv/static/media/github.dc49a960a2d3c5a49c806f6188a7733b.svg",
+    "static/media/email.svg": "/cv/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
+    "index.html": "/cv/index.html",
+    "static/media/tg.svg": "/cv/static/media/tg.1a2a88e8eed5ccaee246705e7a50b748.svg",
+    "main.f8ffd697.css.map": "/cv/static/css/main.f8ffd697.css.map",
+    "main.4219d861.js.map": "/cv/static/js/main.4219d861.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8ffd697.css",
+    "static/js/main.4219d861.js"
+  ]
+}
