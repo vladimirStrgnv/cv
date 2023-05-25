@@ -11,7 +11,7 @@ const Projects = () => {
     <div className="projects-cards">
       <div className="projects__header">
         <h2>Проекты</h2>
-        <Button text="Посмотреть все проекты" path="/projects"></Button>
+        <Button text="Посмотреть все проекты" path="projects"></Button>
       </div>
       <div className="projects__cards-list">
         <GalleryCard
