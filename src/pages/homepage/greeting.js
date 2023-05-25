@@ -8,7 +8,7 @@ const Greeting = () => {
         <div className='greeting__about'>
             <h2>Строгонов Владимир</h2>
             <h3>front-end разработчик</h3>
-            <Button text={'Связаться со мной'} path={'/contacts'}></Button>
+            <Button text={'Связаться со мной'} path={'contacts'}></Button>
         </div>
     </div>
   )
