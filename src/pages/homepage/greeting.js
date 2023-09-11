@@ -16,13 +16,14 @@ const Greeting = () => {
                 технологиях, как express и mongoDB, так и задания связанные с клиентской частью приложения, приемущественно на таких технологиях, как 
                 React + Redux и Vue 3.
               </p>
-              <li className='greeting__experience-item'>Стажировка в Ylab с 10.05.2023 по 10.06.2023</li>
             </ul>
             <h3 className='greeting__greeting-title'>Образование</h3>
             <ul className='greeting__education-list'>
               <li className='greeting__education-item'>Реклама и связь с общественностью (ЮФУ, 2017-2021, оконченное высшее образование)</li>
               <li className='greeting__education-item'>Гостиничное дело (ЮФУ, 2021-2023, неоконченное высшее образование)</li>
               <li className='greeting__education-item'>Информатика и вычислительная техника (ЮФУ, 2020-2022, неоконченное высшее образование)</li>
+              <li className='greeting__education-item'>Стажировка в Ylab с 10.05.2023 по 10.06.2023</li>
+              <li className='greeting__education-item'>Обучение в RS School(Epam) с 23.02.2022 по 20.09.2022</li>
             </ul>
         </div>
     </div>
