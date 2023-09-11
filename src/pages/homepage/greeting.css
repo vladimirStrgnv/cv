@@ -25,11 +25,17 @@
 .greeting__experience-item {
     margin-left: 10px;
     margin-bottom: 10px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .greeting__experience-list .greeting__experience-item::marker {
     content: '✓';
     color: rgb(255, 255, 255);
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+.greeting__education-item {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
 }

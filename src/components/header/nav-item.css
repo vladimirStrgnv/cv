@@ -12,3 +12,10 @@
 	border-color: rgb(202, 163, 32);
     transition: 1s;
 }
+
+@media (max-width: 576px) { 
+    .links-list__item {
+        margin: 0 10px;
+        font-size: 13px;
+    }
+} 

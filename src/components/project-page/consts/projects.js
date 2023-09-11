@@ -1,14 +1,13 @@
 import { notif, postman, lang  } from './images';
 
-
 const projetsData = {
   lang: {
-    title: "Lang(в разработке)",
+    title: "Lang",
     images: lang,
     descrpt:
-      "Приложение для изучения английского языка. Приложение состоит из учебника, вклюающего себя 3600 слов, страницы статистики и 2х игр.",
-    tech: "React, CSS modules, React Router, Redux",
-    link: 'https://github.com/vladimirStrgnv/lang/tree/development'
+      "Приложение для изучения английского языка. Приложение состоит из учебника, вклюающего в себя 3600 слов, страницы статистики и 2х игр.",
+    tech: "React, SCSS modules, React Router, Redux, TS, Chart.js",
+    link: 'https://github.com/vladimirStrgnv/lang_v2'
   },
   notif: {
     title: "Виджет уведомления от компании Reon",
@@ -22,7 +21,7 @@ const projetsData = {
     title: "Виджет для отправки электронной почты от компании Reon",
     images: postman,
     descrpt:
-      "Виджет позволяет расширить стандартный функционал amoCRM для работы с письмами. Предотсавляет возможность персонализировать письма; осуществлять предпросмотр  и отложенную отправку, создавать шаблоны.",
+      "Виджет позволяет расширить стандартный функционал amoCRM для работы с письмами. Предоставляет возможность персонализировать письма; осуществлять предпросмотр  и отложенную отправку, создавать шаблоны.",
     tech: "Frontend: Vue.js 3, naive-ui. Backend: express.js, node-shedule, nodemailer, multer, dayjs, mongoDB",
     link: 'https://reon.pro/email2'
   },
