@@ -7,7 +7,7 @@ const projetsData = {
     descrpt:
       "Приложение для изучения английского языка. Приложение состоит из учебника, вклюающего в себя 3600 слов, страницы статистики и 2х игр.",
     tech: "React, SCSS modules, React Router, Redux, TS, Chart.js",
-    link: 'https://github.com/vladimirStrgnv/lang_v2'
+    link: 'https://vladimirstrgnv.github.io/lang_v2/#/'
   },
   notif: {
     title: "Виджет уведомления от компании Reon",
