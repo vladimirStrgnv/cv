@@ -11,7 +11,7 @@ const Greeting = () => {
             <Button text={'Связаться со мной'} path={'contacts'}></Button>
             <h3 className='greeting__experience-title'>Опыт работы</h3>
             <ul className='greeting__experience-list'>
-              <li className='greeting__experience-item'>Junior JS full stack developer в компании REON c 12.10.2022 по 10.09.2022</li>
+              <li className='greeting__experience-item'>Junior JS full stack developer в компании REON c 12.10.2022 по 10.09.2023</li>
               <p>Занимался созданием виджетов для срм системы amoCRM. Выполнял  задания связанные с серверной частью приложения, на таких
                 технологиях, как express и mongoDB, так и задания связанные с клиентской частью приложения, приемущественно на таких технологиях, как 
                 React + Redux и Vue 3.
