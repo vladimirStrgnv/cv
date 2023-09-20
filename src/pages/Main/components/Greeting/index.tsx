@@ -1,33 +1,55 @@
-import React from 'react';
-import './index.css';
+import styles from './index.module.scss';
 import Button from '../../../../UI/button';
+import { motion } from "framer-motion";
+import { educationListInfo } from '../../consts';
+
+const listAnimationConfig = {
+  visible: i => ({
+    opacity: 1,
+    x: 0,
+    transition: {
+      delay: i * 0.5,
+    },
+  }),
+  hidden: { opacity: 0, x:100 },
+};
 
 const Greeting = () => {
   return (
-    <section className='greeting'>
-        <div className='greeting__about'>
-            <h2>Строгонов Владимир</h2>
-            <h3 className='greeting__greeting-title'>front-end разработчик</h3>
-            <Button text={'Связаться со мной'} path={'contacts'}></Button>
-            <h3 className='greeting__experience-title'>Опыт работы</h3>
-            <ul className='greeting__experience-list'>
-              <li className='greeting__experience-item'>Junior JS full stack developer в компании REON c 12.10.2022 по 10.09.2023</li>
-              <p>Занимался созданием виджетов для срм системы amoCRM. Выполнял  задания связанные с серверной частью приложения, на таких
-                технологиях, как express и mongoDB, так и задания связанные с клиентской частью приложения, приемущественно на таких технологиях, как 
-                React + Redux и Vue 3.
-              </p>
-            </ul>
-            <h3 className='greeting__greeting-title'>Образование</h3>
-            <ul className='greeting__education-list'>
-              <li className='greeting__education-item'>Реклама и связь с общественностью (ЮФУ, 2017-2021, оконченное высшее образование)</li>
-              <li className='greeting__education-item'>Гостиничное дело (ЮФУ, 2021-2023, неоконченное высшее образование)</li>
-              <li className='greeting__education-item'>Информатика и вычислительная техника (ЮФУ, 2020-2022, неоконченное высшее образование)</li>
-              <li className='greeting__education-item'>Стажировка в Ylab с 10.05.2023 по 10.06.2023</li>
-              <li className='greeting__education-item'>Обучение в RS School(Epam) с 23.02.2022 по 20.09.2022</li>
-            </ul>
-        </div>
+    <section className={styles.greeting}>
+      <h2 className={styles.greeting__title}>Строгонов Владимир</h2>
+      <h2 className={styles.greeting__title}>front-end разработчик</h2>
+      <Button text={"Связаться со мной"} path={"contacts"}></Button>
+      <h3 className={styles.greeting__subtitle}>Опыт работы</h3>
+      <ul className={styles["greeting__experience-list"]}>
+        <li className={styles["greeting__experience-item"]}>
+          Junior JS full stack developer в компании REON c 04.09.2022 по
+          10.09.2023
+        </li>
+        <p>
+          Занимался созданием виджетов для срм системы amoCRM. Выполнял задания
+          связанные с серверной частью приложения, на таких технологиях, как
+          express и mongoDB, так и задания связанные с клиентской частью
+          приложения, приемущественно на таких технологиях, как React + Redux и
+          Vue 3.
+        </p>
+      </ul>
+      <h3 className={styles.greeting__subtitle}>Образование</h3>
+      <ul className={styles["greeting__education-list"]}>
+        {educationListInfo.map((text, index) => (
+          <motion.li
+            className={styles["greeting__education-item"]}
+            variants={listAnimationConfig}
+            initial="hidden"
+            animate="visible"
+            custom={index}
+          >
+            {text}
+          </motion.li>
+        ))}
+      </ul>
     </section>
-  )
+  );
 }
 
 export default Greeting;

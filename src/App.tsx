@@ -4,7 +4,7 @@ import Homepage from './pages/Main';
 import Project from './pages/projects/index';
 import ProjectPage from './components/project-page/index';
 import AchivementList from './pages/projects/achivments-list';
-import ContactPage from './pages/contacts/index';
+import ContactPage from './pages/ContactPage/index';
 import './global-css/index.css';
 
 function App() {

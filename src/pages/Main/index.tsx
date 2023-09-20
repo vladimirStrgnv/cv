@@ -1,20 +1,24 @@
-import React from 'react';
-import styles from './index.scss';
-import '../../global-css/animation.css';
-import Greeting from './components/Greeting/index';
-import ProjectsList from '../projects/projects-list';
-import SkillsList from './components/SkillsList';
+import styles from "./index.module.scss";
+import Greeting from "./components/Greeting/index";
+import ProjectsList from "./components/ProjectsList";
+import SkillsList from "./components/SkillsList";
+import { motion } from "framer-motion";
 
-const Homepage = () => {
+const Main = () => {
   return (
-    <section className={styles.main}>
-        <div className={styles.wrapper}>
-          <Greeting></Greeting>
-          <ProjectsList></ProjectsList>
-          <SkillsList></SkillsList>
-        </div>
-    </section>
+    <div className={styles.main}>
+      <motion.div
+        className={styles.wrapper}
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.3 }}
+      >
+        <Greeting></Greeting>
+        <ProjectsList></ProjectsList>
+        <SkillsList></SkillsList>
+      </motion.div>
+    </div>
   );
 };
 
-export default Homepage;
+export default Main;
