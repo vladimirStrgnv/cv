@@ -1,7 +1,7 @@
 import React from 'react';
-import './projects-gallery.css';
-import Button from '../../UI/button';
-import GalleryCard from '../../components/gallery-card';
+import './index.css';
+import Button from '../../../../UI/button';
+import GalleryCard from '../../../../components/gallery-card';
 import lang from './assets/lang.jpg';
 import notif from './assets/notif.jpg';
 import postman from './assets/postman.jpg';

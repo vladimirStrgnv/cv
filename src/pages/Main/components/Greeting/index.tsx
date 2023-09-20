@@ -1,10 +1,10 @@
 import React from 'react';
-import './greeting.css';
-import Button from '../../UI/button';
+import './index.css';
+import Button from '../../../../UI/button';
 
 const Greeting = () => {
   return (
-    <div className='greeting'>
+    <section className='greeting'>
         <div className='greeting__about'>
             <h2>Строгонов Владимир</h2>
             <h3 className='greeting__greeting-title'>front-end разработчик</h3>
@@ -26,7 +26,7 @@ const Greeting = () => {
               <li className='greeting__education-item'>Обучение в RS School(Epam) с 23.02.2022 по 20.09.2022</li>
             </ul>
         </div>
-    </div>
+    </section>
   )
 }
 

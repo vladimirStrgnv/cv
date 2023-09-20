@@ -1,7 +1,6 @@
-
 import { Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/index';
-import Homepage from './pages/homepage/index';
+import Homepage from './pages/Main';
 import Project from './pages/projects/index';
 import ProjectPage from './components/project-page/index';
 import AchivementList from './pages/projects/achivments-list';

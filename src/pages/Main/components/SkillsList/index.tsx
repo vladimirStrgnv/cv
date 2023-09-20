@@ -1,8 +1,7 @@
-import React from 'react';
-import './skills.css';
-import Skill from '../../components/skill';
+import './index.css';
+import Skill from '../../../../components/skill';
 
-const Skills = () => {
+const SkillsList = () => {
   const skills = {
     languages: [
       'JavaScript+TypeScript'
@@ -34,4 +33,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default SkillsList
