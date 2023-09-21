@@ -1,0 +1,31 @@
+.contacts {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+
+    &__wrapper {
+        padding-bottom: 290px;
+        max-width: 1000px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 2.2rem;
+        font-family: "Gilroy-Bold";
+    }
+
+    &__descrpt {
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+        font-family: "Gilroy-Regular";
+    }
+
+    &__subtitle {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+        font-family: "Gilroy-Bold";
+    }
+    
+}

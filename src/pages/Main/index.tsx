@@ -9,9 +9,9 @@ const Main = () => {
     <div className={styles.main}>
       <motion.div
         className={styles.wrapper}
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.3 }}
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
       >
         <Greeting></Greeting>
         <ProjectsList></ProjectsList>

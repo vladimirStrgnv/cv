@@ -1,0 +1,38 @@
+.skill {
+    width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(240, 233, 233);
+    height: 100%;
+
+    &__title {
+        padding: 6px;
+        border-bottom: solid 2px rgb(240, 233, 233);
+        font-size: 1.3rem;
+    }
+
+    &__descrpt {
+        padding: 6px;
+        font-family: 'Gilroy-Regular';
+        font-size: 1.1rem;
+    }
+
+    &__list {
+        padding-top: 6px;
+        padding-left: 16px;
+
+        &-item {
+            margin-bottom: 6px;
+        }
+    }
+
+    &__list &__list-item::marker {
+        content: '✓';
+        color: rgb(255, 255, 255);
+        font-size: 1.1em;
+    }
+}
+
+
+

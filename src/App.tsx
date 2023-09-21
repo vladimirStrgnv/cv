@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
-import Layout from './components/layout/index';
+import Layout from './share/components/MainLayout/index';
 import Homepage from './pages/Main';
-import Project from './pages/projects/index';
-import ProjectPage from './components/project-page/index';
-import AchivementList from './pages/projects/achivments-list';
+import ProjectsPage from './pages/ProjectsPage';
+import AchivementList from './pages/ProjectsPage/components/AchivmentList';
 import ContactPage from './pages/ContactPage/index';
-import './global-css/index.css';
+import ProjectPage from './share/components/ProjectPage';
+import './global-styles/index.scss';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path='/cv' element={<Layout />}>
           <Route index element={<Homepage />}></Route>
-          <Route path='projects' element={<Project />}>
+          <Route path='projects' element={<ProjectsPage />}>
             <Route  index element={<AchivementList />}></Route>
             <Route  path=':name' element={<ProjectPage />}></Route>
             <Route  path=':achivemnts' element={<ProjectPage />}></Route>

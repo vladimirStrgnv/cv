@@ -1,5 +1,5 @@
 import styles from './index.module.scss';
-import Button from '../../../../UI/button';
+import Button from '../../../../share/components/Button';
 import { motion } from "framer-motion";
 import { educationListInfo } from '../../consts';
 
@@ -41,6 +41,7 @@ const Greeting = () => {
             className={styles["greeting__education-item"]}
             variants={listAnimationConfig}
             initial="hidden"
+            whileInView="visible"
             animate="visible"
             custom={index}
           >

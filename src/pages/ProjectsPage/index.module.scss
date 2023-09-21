@@ -1,0 +1,11 @@
+.achivments {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+
+    &__wrapper {
+        max-width: 1000px;
+        width: 75%;
+        margin: 0 auto;
+    }
+}

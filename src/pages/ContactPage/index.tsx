@@ -1,20 +1,26 @@
-import React from 'react';
-import './index.css';
+import styles from './index.module.scss'
 import ContactList from './components/ContactList';
+import { motion } from "framer-motion";
 
 const ContactPage = () => {
   return (
-    <section className='contacts'>
-      <div className={`block block-show`}>
-        <div className='contacts__wrapper'>
-          <h2 className='contacts__title'>Контакты</h2>
-          <p className='contacts__descrpt'>Рассмотрю любые предложения по фулл-тайм вакансиям либо проектной работе.</p>
-          <h3 className='contacts__subtitle'>Связаться со мной:</h3>
-          <ContactList></ContactList>
-        </div>
-      </div>
+    <section className={styles.contacts}>
+      <motion.div
+        className={styles.contacts__wrapper}
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+      >
+        <h2 className={styles.contacts__title}>Контакты</h2>
+        <p className={styles.contacts__descrpt}>
+          Рассмотрю любые предложения по фулл-тайм вакансиям либо проектной
+          работе.
+        </p>
+        <h3 className={styles.contacts__subtitle}>Связаться со мной:</h3>
+        <ContactList></ContactList>
+      </motion.div>
     </section>
-  )
-}
+  );
+};
 
 export default ContactPage;

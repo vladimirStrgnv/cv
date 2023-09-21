@@ -1,38 +1,35 @@
-import styles from './index.module.scss';
-import Button from '../../../../UI/button';
-import GalleryCard from '../../../../components/gallery-card';
+import styles from "./index.module.scss";
+import Button from "../../../../share/components/Button";
+import GalleryCard from "../../../../share/components/GalleryCard";
 
-import { projectCardsInfo } from '../../consts';
+import { projectCardsInfo } from "../../consts";
 import { motion } from "framer-motion";
 
 const listAnimationConfig = {
-  visible: i => ({
+  visible: (i) => ({
     opacity: 1,
     x: 0,
     transition: {
       delay: i * 0.5,
     },
   }),
-  hidden: { opacity: 0, x:100 },
+  hidden: { opacity: 0, x: 100 },
 };
 
 const ProjectsList = () => {
-
   return (
     <section className={styles.projects}>
       <div className={styles.projects__header}>
         <h2 className={styles.projects__title}>Проекты</h2>
         <Button text="Посмотреть все проекты" path="projects"></Button>
       </div>
-      <ul className={styles["projects__cards-list"]}>
+      <motion.ul
+        className={styles["projects__cards-list"]}
+        initial="hidden"
+        whileInView="visible"
+      >
         {projectCardsInfo.map((card, index) => (
-          <motion.li
-            key={index}
-            variants={listAnimationConfig}
-            initial="hidden"
-            animate="visible"
-            custom={index}
-          >
+          <motion.li key={index} variants={listAnimationConfig} custom={index}>
             <GalleryCard
               src={card.img[0].original}
               descrpt={card.descrpt}
@@ -40,7 +37,7 @@ const ProjectsList = () => {
             ></GalleryCard>
           </motion.li>
         ))}
-      </ul>
+      </motion.ul>
     </section>
   );
 };

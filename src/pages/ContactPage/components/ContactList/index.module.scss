@@ -1,0 +1,13 @@
+.contact-list__item {
+    max-width: 280px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Gilroy-Regular";
+
+    &-value {
+        margin-left: 20px;
+    }
+
+}
+

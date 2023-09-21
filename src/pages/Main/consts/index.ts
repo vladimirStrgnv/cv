@@ -1,4 +1,4 @@
-import { notif, postman, lang } from "../../../components/project-page/consts/images";
+import { notif, postman, lang } from "../../../share/components/ProjectPage/consts/images";
 
 export const educationListInfo = [
   " Реклама и связь с общественностью (ЮФУ, 2017-2021, оконченное высшее образование)",
@@ -15,7 +15,7 @@ export const hardSkills = {
     backend: [
       'NodeJS', 'MongoDB'
     ],
-    frameworks: [
+    ['frameworks/labs']: [
       'React', 'Express', 'node-shedule', 'multer', 'Vue 3'
     ],
     other: [
