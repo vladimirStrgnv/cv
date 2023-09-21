@@ -42,7 +42,6 @@ const Greeting = () => {
             className={styles["greeting__education-item"]}
             variants={listAnimationConfig}
             initial="hidden"
-            whileInView="visible"
             animate="visible"
             custom={index}
           >

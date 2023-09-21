@@ -4,17 +4,6 @@ import ProjectsList from "./components/ProjectsList";
 import SkillsList from "./components/SkillsList";
 import { motion } from "framer-motion";
 
-const parentVariant = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1, transition: { staggerChildren: 1 } }
-};
-
-const childrenVariant  = {
-  initial: { opacity: 0, x: 50 },
-  animate: { opacity: 1, x: 0 }
-};
-
-
 const Main = () => {
   return (
     <div className={styles.main}>

@@ -21,6 +21,8 @@ const SkillsList = () => {
       <motion.ul
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true }}
+
         className={styles.skills__list}
       >
         {Object.entries(hardSkills).map((skill, index) => (
