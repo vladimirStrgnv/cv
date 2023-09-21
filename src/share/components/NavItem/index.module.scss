@@ -7,6 +7,10 @@
     font-size: 16px;
     font-family: "Gilroy-Regular";
 
+    &--active {
+        color: rgb(202, 163, 32);
+    }
+
     &:hover {
         border-color: rgb(202, 163, 32);
         transition: 1s;

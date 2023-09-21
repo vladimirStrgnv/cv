@@ -9,6 +9,7 @@ const listAnimationConfig = {
     x: 0,
     transition: {
       delay: i * 0.5,
+
     },
   }),
   hidden: { opacity: 0, x:100 },

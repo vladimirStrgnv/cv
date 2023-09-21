@@ -5,6 +5,7 @@ import GalleryCard from "../../../../share/components/GalleryCard";
 import { projectCardsInfo } from "../../consts";
 import { motion } from "framer-motion";
 
+const animationDelay = 5;
 const listAnimationConfig = {
   visible: (i) => ({
     opacity: 1,
@@ -29,7 +30,7 @@ const ProjectsList = () => {
         whileInView="visible"
       >
         {projectCardsInfo.map((card, index) => (
-          <motion.li key={index} variants={listAnimationConfig} custom={index}>
+          <motion.li key={index} variants={listAnimationConfig} custom={index+animationDelay} >
             <GalleryCard
               src={card.img[0].original}
               descrpt={card.descrpt}
