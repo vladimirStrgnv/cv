@@ -24,7 +24,7 @@ const Greeting = () => {
       <h3 className={styles.greeting__subtitle}>Опыт работы</h3>
       <ul className={styles["greeting__experience-list"]}>
         <li className={styles["greeting__experience-item"]}>
-          Junior JS full stack developer в компании REON c 04.09.2022 по
+          JS full stack developer в компании REON c 04.09.2022 по
           10.09.2023
         </li>
         <p>
@@ -33,6 +33,7 @@ const Greeting = () => {
           express и mongoDB, так и задания связанные с клиентской частью
           приложения, приемущественно на таких технологиях, как React + Redux и
           Vue 3.
+          Прошел восьмимесячный курс от компании EPAM на сертификат по frontend разработке.
         </p>
       </ul>
       <h3 className={styles.greeting__subtitle}>Образование</h3>
