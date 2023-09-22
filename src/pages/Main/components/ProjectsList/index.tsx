@@ -28,6 +28,7 @@ const ProjectsList = () => {
         className={styles["projects__cards-list"]}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true }}
       >
         {projectCardsInfo.map((card, index) => (
           <motion.li key={index} variants={listAnimationConfig} custom={index+animationDelay} >

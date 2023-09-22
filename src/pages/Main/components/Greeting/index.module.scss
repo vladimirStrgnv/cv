@@ -38,3 +38,17 @@
 
 
 
+@media (max-width: 576px) { 
+    .greeting {
+
+        &__title{
+            font-size: 2.2rem;
+
+        }
+    
+        &__subtitle{
+            font-size: 1.8rem;
+
+        }
+    }
+} 

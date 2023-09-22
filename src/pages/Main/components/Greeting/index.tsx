@@ -45,6 +45,7 @@ const Greeting = () => {
             initial="hidden"
             animate="visible"
             custom={index}
+            key={index}
           >
             {text}
           </motion.li>

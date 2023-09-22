@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <header className={styles.header}>
         <div className={styles.header__wrapper}>
-          <Link to='/cv' ><div className={styles.header__logo}>Портфолио</div></Link>
+        <div className={styles.header__logo}><Link to='/cv' >Портфолио</Link></div>
           <Nav></Nav>
         </div>
       </header>
