@@ -18,8 +18,7 @@ const listAnimationConfig = {
 const Greeting = () => {
   return (
     <section className={styles.greeting}>
-      <h2 className={styles.greeting__title}>Строгонов Владимир</h2>
-      <h2 className={styles.greeting__title}>front-end разработчик</h2>
+      <h2 className={styles.greeting__title}>Строгонов Владимир<br />front-end разработчик</h2>
       <Button text={"Связаться со мной"} path={"contacts"}></Button>
       <h3 className={styles.greeting__subtitle}>Опыт работы</h3>
       <ul className={styles["greeting__experience-list"]}>

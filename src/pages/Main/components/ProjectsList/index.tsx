@@ -1,11 +1,9 @@
 import styles from "./index.module.scss";
 import Button from "../../../../share/components/Button";
 import GalleryCard from "../../../../share/components/GalleryCard";
-
 import { projectCardsInfo } from "../../consts";
 import { motion } from "framer-motion";
 
-const animationDelay = 5;
 const listAnimationConfig = {
   visible: (i) => ({
     opacity: 1,
@@ -31,7 +29,7 @@ const ProjectsList = () => {
         viewport={{ once: true }}
       >
         {projectCardsInfo.map((card, index) => (
-          <motion.li key={index} variants={listAnimationConfig} custom={index+animationDelay} >
+          <motion.li key={index} variants={listAnimationConfig} custom={index} >
             <GalleryCard
               src={card.img[0].original}
               descrpt={card.descrpt}

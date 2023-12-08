@@ -12,7 +12,7 @@ const GalleryCard = (props) => {
         :
           <img src={props.src} alt="img" className={styles.card__img} />
       }
-      <p>{props.descrpt}</p>
+      <p className={styles.card__descrpt}>{props.descrpt}</p>
     </div>
   );
 }
