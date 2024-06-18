@@ -1,7 +1,6 @@
-import styles from  './index.module.scss';
-import '../../global-styles/animation.scss';
-import { Outlet } from 'react-router-dom';
+import styles from "./index.module.scss";
 import { motion } from "framer-motion";
+import AchivementList from "./components/AchivmentList";
 
 const ProjectsPage = () => {
   return (
@@ -12,7 +11,7 @@ const ProjectsPage = () => {
       transition={{ duration: 1.5 }}
     >
       <div className={styles.achivments__wrapper}>
-        <Outlet></Outlet>
+        <AchivementList></AchivementList>
       </div>
     </motion.section>
   );

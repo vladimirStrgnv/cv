@@ -1,6 +1,7 @@
-import { Outlet } from 'react-router-dom';
-import Header from '../Header/index';
-import Footer from '../Footer/index';
+import { Outlet } from "react-router-dom";
+import Header from "../Header/index";
+import Footer from "../Footer/index";
+import "../../../app/global-styles/animation.scss";
 
 const Layout = () => {
   return (
@@ -12,6 +13,6 @@ const Layout = () => {
       <Footer></Footer>
     </>
   );
-}
+};
 
 export default Layout;
