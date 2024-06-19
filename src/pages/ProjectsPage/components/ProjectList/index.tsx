@@ -1,5 +1,5 @@
 import GalleryCard from "../../../../share/components/GalleryCard";
-import lang from "../../assets/projects/lang.jpg";
+import distribution from "../../assets/projects/distribution.png";
 import notif from "../../assets/projects/notif.jpg";
 import postman from "../../assets/projects/postman.jpg";
 import styles from "./index.module.scss";
@@ -14,7 +14,7 @@ const ProjectsList = () => {
           <GalleryCard
             src={notif}
             descrpt={"Виджет для уведомлений в AMO crm"}
-            link={"notif"}
+            link={`/${ROUTES.notif}`}
           ></GalleryCard>
         </li>
         <li className={styles["projects__project-list-item"]}>
@@ -26,9 +26,9 @@ const ProjectsList = () => {
         </li>
         <li className={styles["projects__project-list-item"]}>
           <GalleryCard
-            src={lang}
-            descrpt={"Приложение для изучения языка со сбором статистики"}
-            link={"lang"}
+            src={distribution}
+            descrpt={"Распределение заявок"}
+            link={`/${ROUTES.distribution}`}
           ></GalleryCard>
         </li>
       </ul>

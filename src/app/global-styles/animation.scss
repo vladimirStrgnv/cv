@@ -16,13 +16,9 @@ body:before {
     z-index: -1;
 }
 
-
-
 body:before {
     animation: 3.2s linear move infinite;
 }
-
-
 
 @keyframes move {
     0% {
@@ -33,7 +29,6 @@ body:before {
         background-position: calc(var(--point-gap-width) / 2) calc(var(--point-gap-height) / 2 * -1);
     }
 }
-
 
 .block {
     opacity: 0;

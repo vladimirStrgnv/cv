@@ -13,7 +13,7 @@ export const PostmanPage = () => {
           images={POSTMAN__PAGE__DATA.images}
           tech={POSTMAN__PAGE__DATA.tech}
           link={POSTMAN__PAGE__DATA.link}
-        />{" "}
+        />
       </div>
     </div>
   );

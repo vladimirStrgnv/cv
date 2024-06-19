@@ -1,6 +1,4 @@
 import ImageGallery from "react-image-gallery";
-import { useParams } from "react-router-dom";
-import { projetsData } from "./consts/projects";
 import "react-image-gallery/styles/css/image-gallery.css";
 import styles from "./index.module.scss";
 import { motion } from "framer-motion";
@@ -20,8 +18,6 @@ const ProjectPage: React.FC<IProjectPage> = ({
   tech,
   link,
 }) => {
-  const { name } = useParams();
-
   return (
     <motion.div
       className={styles["project-page"]}

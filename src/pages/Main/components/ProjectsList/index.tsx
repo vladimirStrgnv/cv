@@ -31,7 +31,7 @@ const ProjectsList = () => {
         {projectCardsInfo.map((card, index) => (
           <motion.li key={index} variants={listAnimationConfig} custom={index} >
             <GalleryCard
-              src={card.img[0].original}
+              src={card.img}
               descrpt={card.descrpt}
               link={card.link}
             ></GalleryCard>

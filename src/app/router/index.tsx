@@ -5,8 +5,9 @@ import { ROUTES } from "../../share/consts";
 import ProjectsPage from "../../pages/ProjectsPage";
 import ContactPage from "../../pages/ContactPage";
 import { Navigate } from "react-router-dom";
-import AchivementList from "../../pages/ProjectsPage/components/AchivmentList";
 import { PostmanPage } from "../../pages/PostmanPage";
+import { NotifPage } from "../../pages/NotifPage";
+import { DistributionPage } from "../../pages/DistributionPage";
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -21,12 +22,19 @@ const BrowserRouter = createBrowserRouter([
       {
         path: ROUTES.contacts,
         element: <ContactPage />,
-        children: [{ index: true, element: <AchivementList /> }],
       },
       { path: ROUTES.projects, element: <ProjectsPage /> },
       {
         path: ROUTES.postman,
         element: <PostmanPage />,
+      },
+      {
+        path: ROUTES.notif,
+        element: <NotifPage />,
+      },
+      {
+        path: ROUTES.distribution,
+        element: <DistributionPage />,
       },
     ],
   },

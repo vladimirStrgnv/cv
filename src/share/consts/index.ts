@@ -3,5 +3,7 @@ export const ROUTES = {
   main: "/",
   projects: "projects",
   postman: "postman",
+  notif: "notif",
   any: "*",
+  distribution: "distribution",
 };

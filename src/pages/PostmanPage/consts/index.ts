@@ -1,26 +1,32 @@
+import image from "../assets/1.png";
+import image2 from "../assets/2.png";
+import image3 from "../assets/3.png";
+import image4 from "../assets/4.png";
+import styles from "../index.module.scss";
+
 const postman = [
   {
-    original: "https://i.ibb.co/Z62CwH4/mail1.png",
-    thumbnail: "https://i.ibb.co/Z62CwH4/mail1.png",
-    originalClass: "project__img",
+    original: image,
+    thumbnail: image,
+    originalClass: styles["img"],
     thumbnailHeight: "50px",
   },
   {
-    original: "https://i.ibb.co/HqvMPVw/mail.png",
-    thumbnail: "https://i.ibb.co/HqvMPVw/mail.png",
-    originalClass: "project__img",
+    original: image2,
+    thumbnail: image2,
+    originalClass: styles["img"],
     thumbnailHeight: "50px",
   },
   {
-    original: "https://i.ibb.co/VYC40HF/mail2.png",
-    thumbnail: "https://i.ibb.co/VYC40HF/mail2.png",
-    originalClass: "project__img",
+    original: image3,
+    thumbnail: image3,
+    originalClass: styles["img"],
     thumbnailHeight: "50px",
   },
   {
-    original: "https://i.ibb.co/Ln699Ct/mail3.png",
-    thumbnail: "https://i.ibb.co/Ln699Ct/mail3.png",
-    originalClass: "project__img",
+    original: image4,
+    thumbnail: image4,
+    originalClass: styles["img"],
     thumbnailHeight: "50px",
   },
 ];
