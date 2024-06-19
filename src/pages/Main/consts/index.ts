@@ -5,8 +5,8 @@ import { ROUTES } from "../../../share/consts";
 
 export const educationListInfo = [
   " Реклама и связь с общественностью (ЮФУ, 2017-2021, оконченное высшее образование)",
-  "Гостиничное дело (ЮФУ, 2021-2023, неоконченное высшее образование)",
-  "Информатика и вычислительная техника (ЮФУ, 2020-2022, неоконченное высшее образование)",
+  "Гостиничное дело (ЮФУ, 2021-2023)",
+  "Информатика и вычислительная техника (ЮФУ, 2020-2025)",
   "Стажировка в RSS  с 01.12.2021 по 10.09.2022",
   "Full stack разработчик в компании REON 10.09.2022 по 20.09.2023",
   "Frontend-разработчик в ФГАНУ НИИ Спецвузавтоматика  c января 2024 по текущее время",
@@ -18,7 +18,13 @@ export const hardSkills = {
   ["frameworks/labs"]: ["React", "Express", "node-shedule", "multer", "Vue 3"],
   other: ["HTML", "CSS", "SCSS", "AJAX", "REST", "CRUD"],
   tools: ["Git", "VScode", "Figma"],
-  ['react ecosystem']: ["React-router", "React-hook-form", "Redux/Rtk", 'React-framer-motion', 'Mui'],
+  ["react ecosystem"]: [
+    "React-router",
+    "React-hook-form",
+    "Redux/Rtk",
+    "React-framer-motion",
+    "Mui",
+  ],
 };
 
 export const projectCardsInfo = [
@@ -33,7 +39,8 @@ export const projectCardsInfo = [
     img: postman,
   },
   {
-    descrpt: "Приложение для распределения лидов среди менеджеров по определенному типу конверсии",
+    descrpt:
+      "Приложение для распределения лидов среди менеджеров по определенному типу конверсии",
     link: `/${ROUTES.distribution}`,
     img: distribution,
   },

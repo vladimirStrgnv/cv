@@ -57,7 +57,7 @@ const Greeting = () => {
           </p>
         </li>
       </ul>
-      <h3 className={styles.greeting__subtitle}>Опыт работы</h3>
+      <h3 className={styles.greeting__subtitle}>Опыт работы/Образование</h3>
       <ul className={styles["greeting__education-list"]}>
         {educationListInfo.map((text, index) => (
           <motion.li
