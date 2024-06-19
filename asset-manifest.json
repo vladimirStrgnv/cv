@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.b330e77c.css",
-    "main.js": "/static/js/main.6d82521e.js",
-    "static/media/2.png": "/static/media/2.188a5c31e3260cedc9eb.png",
-    "static/media/3.png": "/static/media/3.f6eb9fcf22d47d544a79.png",
-    "static/media/distribution.png": "/static/media/distribution.a8c2374736e6f9bf412a.png",
-    "static/media/certificate2.png": "/static/media/certificate2.e889fa119c6b30163a8f.png",
-    "static/media/certificate1.png": "/static/media/certificate1.efe582702435b3ce7da5.png",
-    "static/media/4.png": "/static/media/4.9c50e0d675879b013b01.png",
-    "static/media/postman.jpg": "/static/media/postman.4e6fc53c9ee479bc6a6f.jpg",
-    "static/media/1.jpg": "/static/media/1.e7f1c5813ccc66d3e62c.jpg",
-    "static/media/notif.jpg": "/static/media/notif.e7f1c5813ccc66d3e62c.jpg",
-    "static/media/1.png": "/static/media/1.307162f5f010e7c98d92.png",
-    "static/media/codewars.svg": "/static/media/codewars.81e18cb924ebde9d518a7b55e0283cd0.svg",
-    "static/media/gmail.svg": "/static/media/gmail.8f53284589214a919c14dc0d23dc1256.svg",
-    "static/media/hh.svg": "/static/media/hh.66786f079d408be0cc0cbbe894686ed0.svg",
-    "static/media/whtsp.svg": "/static/media/whtsp.57b12149de37a69793728e55de6947a3.svg",
-    "static/media/github.svg": "/static/media/github.dc49a960a2d3c5a49c806f6188a7733b.svg",
-    "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
-    "index.html": "/index.html",
-    "static/media/tg.svg": "/static/media/tg.11687b00a1373a27f5c7b63328a02cf4.svg",
-    "main.b330e77c.css.map": "/static/css/main.b330e77c.css.map",
-    "main.6d82521e.js.map": "/static/js/main.6d82521e.js.map"
+    "main.css": "/cv/static/css/main.b330e77c.css",
+    "main.js": "/cv/static/js/main.12fbc4da.js",
+    "static/media/2.png": "/cv/static/media/2.188a5c31e3260cedc9eb.png",
+    "static/media/3.png": "/cv/static/media/3.f6eb9fcf22d47d544a79.png",
+    "static/media/distribution.png": "/cv/static/media/distribution.a8c2374736e6f9bf412a.png",
+    "static/media/certificate2.png": "/cv/static/media/certificate2.e889fa119c6b30163a8f.png",
+    "static/media/certificate1.png": "/cv/static/media/certificate1.efe582702435b3ce7da5.png",
+    "static/media/4.png": "/cv/static/media/4.9c50e0d675879b013b01.png",
+    "static/media/postman.jpg": "/cv/static/media/postman.4e6fc53c9ee479bc6a6f.jpg",
+    "static/media/1.jpg": "/cv/static/media/1.e7f1c5813ccc66d3e62c.jpg",
+    "static/media/notif.jpg": "/cv/static/media/notif.e7f1c5813ccc66d3e62c.jpg",
+    "static/media/1.png": "/cv/static/media/1.307162f5f010e7c98d92.png",
+    "static/media/codewars.svg": "/cv/static/media/codewars.81e18cb924ebde9d518a7b55e0283cd0.svg",
+    "static/media/gmail.svg": "/cv/static/media/gmail.8f53284589214a919c14dc0d23dc1256.svg",
+    "static/media/hh.svg": "/cv/static/media/hh.66786f079d408be0cc0cbbe894686ed0.svg",
+    "static/media/whtsp.svg": "/cv/static/media/whtsp.57b12149de37a69793728e55de6947a3.svg",
+    "static/media/github.svg": "/cv/static/media/github.dc49a960a2d3c5a49c806f6188a7733b.svg",
+    "static/media/email.svg": "/cv/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
+    "index.html": "/cv/index.html",
+    "static/media/tg.svg": "/cv/static/media/tg.11687b00a1373a27f5c7b63328a02cf4.svg",
+    "main.b330e77c.css.map": "/cv/static/css/main.b330e77c.css.map",
+    "main.12fbc4da.js.map": "/cv/static/js/main.12fbc4da.js.map"
   },
   "entrypoints": [
     "static/css/main.b330e77c.css",
-    "static/js/main.6d82521e.js"
+    "static/js/main.12fbc4da.js"
   ]
 }
