@@ -1,6 +1,6 @@
 export const ROUTES = {
   contacts: "contacts",
-  main: "/",
+  main: "/cv",
   projects: "projects",
   postman: "postman",
   notif: "notif",

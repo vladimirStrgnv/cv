@@ -14,21 +14,21 @@ const ProjectsList = () => {
           <GalleryCard
             src={notif}
             descrpt={"Виджет для уведомлений в AMO crm"}
-            link={`/${ROUTES.notif}`}
+            link={`${ROUTES.main}/${ROUTES.notif}`}
           ></GalleryCard>
         </li>
         <li className={styles["projects__project-list-item"]}>
           <GalleryCard
             src={postman}
             descrpt={"Виджет для отправки почты AMO crm"}
-            link={`/${ROUTES.postman}`}
+            link={`${ROUTES.main}/${ROUTES.postman}`}
           ></GalleryCard>
         </li>
         <li className={styles["projects__project-list-item"]}>
           <GalleryCard
             src={distribution}
             descrpt={"Распределение заявок"}
-            link={`/${ROUTES.distribution}`}
+            link={`${ROUTES.main}/${ROUTES.distribution}`}
           ></GalleryCard>
         </li>
       </ul>

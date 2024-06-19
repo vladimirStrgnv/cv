@@ -11,7 +11,7 @@ import { DistributionPage } from "../../pages/DistributionPage";
 
 const BrowserRouter = createBrowserRouter([
   {
-    path: "/",
+    path: "/cv",
     element: <Layout />,
     children: [
       {

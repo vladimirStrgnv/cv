@@ -30,18 +30,18 @@ export const hardSkills = {
 export const projectCardsInfo = [
   {
     descrpt: 'Виджет для уведомлений в AMO crm"',
-    link: `/${ROUTES.notif}`,
+    link: `${ROUTES.main}/${ROUTES.notif}`,
     img: notif,
   },
   {
     descrpt: "Виджет для отправки почты AMO crm",
-    link: `/${ROUTES.postman}`,
+    link: `${ROUTES.main}/${ROUTES.postman}`,
     img: postman,
   },
   {
     descrpt:
       "Приложение для распределения лидов среди менеджеров по определенному типу конверсии",
-    link: `/${ROUTES.distribution}`,
+    link: `${ROUTES.main}/${ROUTES.distribution}`,
     img: distribution,
   },
 ];
