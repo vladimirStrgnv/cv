@@ -9,7 +9,7 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.header__wrapper}>
           <div className={styles.header__logo}>
-            <NavLink to={ROUTES.main}>Портфолио</NavLink>
+            <NavLink to={`${ROUTES.main}/`}>Портфолио</NavLink>
           </div>
           <Nav></Nav>
         </div>
