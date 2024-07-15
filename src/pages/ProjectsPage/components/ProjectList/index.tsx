@@ -2,6 +2,7 @@ import GalleryCard from "../../../../share/components/GalleryCard";
 import distribution from "../../assets/projects/distribution.png";
 import notif from "../../assets/projects/notif.jpg";
 import postman from "../../assets/projects/postman.jpg";
+import shd from "../../assets/projects/shd.webp";
 import styles from "./index.module.scss";
 import { ROUTES } from "../../../../share/consts";
 
@@ -29,6 +30,13 @@ const ProjectsList = () => {
             src={distribution}
             descrpt={"Распределение заявок"}
             link={`${ROUTES.main}/${ROUTES.distribution}`}
+          ></GalleryCard>
+        </li>
+        <li className={styles["projects__project-list-item"]}>
+          <GalleryCard
+            src={shd}
+            descrpt={"Система управления SpaceSAN"}
+            link={`${ROUTES.main}/${ROUTES.shd}`}
           ></GalleryCard>
         </li>
       </ul>

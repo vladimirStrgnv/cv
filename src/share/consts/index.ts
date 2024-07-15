@@ -6,4 +6,5 @@ export const ROUTES = {
   notif: "notif",
   any: "*",
   distribution: "distribution",
+  shd: "shd",
 };

@@ -24,6 +24,8 @@ export const hardSkills = {
     "Redux/Rtk",
     "React-framer-motion",
     "Mui",
+    "Mobx",
+    "Next",
   ],
 };
 

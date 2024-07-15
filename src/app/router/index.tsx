@@ -8,6 +8,7 @@ import { Navigate } from "react-router-dom";
 import { PostmanPage } from "../../pages/PostmanPage";
 import { NotifPage } from "../../pages/NotifPage";
 import { DistributionPage } from "../../pages/DistributionPage";
+import { ShdPage } from "../../pages/Shd";
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const BrowserRouter = createBrowserRouter([
       {
         path: ROUTES.distribution,
         element: <DistributionPage />,
+      },
+      {
+        path: ROUTES.shd,
+        element: <ShdPage />,
       },
     ],
   },
