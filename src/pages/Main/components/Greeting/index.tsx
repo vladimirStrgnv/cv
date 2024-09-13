@@ -27,7 +27,7 @@ const Greeting = () => {
       <ul className={styles["greeting__experience-list"]}>
         <li className={styles["greeting__experience-item"]}>
           <h3 className={styles["greeting__experience-subtitle"]}>
-            Стажер в компании RSS с декабря 2021 по сентябрь 2022
+            Стажер в компании RSS с сентября 2021 по сентябрь 2022
           </h3>
           <p>
             Прохождение образовательной программы компании. Работа в команде над
@@ -45,6 +45,15 @@ const Greeting = () => {
             технологиях, как express и mongoDB, так и задания связанные с
             клиентской частью приложения, приемущественно на таких технологиях,
             как React + Redux и Vue 3.
+          </p>
+        </li>
+        <li className={styles["greeting__experience-item"]}>
+          <h3 className={styles["greeting__experience-subtitle"]}>
+            React middle developer (проектная занятость)  в компании БЕТТИНГ КО с сентября 2023 по декабрь
+            2023
+          </h3>
+          <p>
+            Рефакторинг кодовой базы биржы по P2P арбитражу. Более подробнее описать не могу =)
           </p>
         </li>
         <li className={styles["greeting__experience-item"]}>
