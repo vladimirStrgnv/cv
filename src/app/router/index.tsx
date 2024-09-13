@@ -9,6 +9,7 @@ import { PostmanPage } from "../../pages/PostmanPage";
 import { NotifPage } from "../../pages/NotifPage";
 import { DistributionPage } from "../../pages/DistributionPage";
 import { ShdPage } from "../../pages/Shd";
+import { Podvig } from "../../pages/Podvig";
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const BrowserRouter = createBrowserRouter([
       {
         path: ROUTES.shd,
         element: <ShdPage />,
+      },
+      {
+        path: ROUTES.podvig,
+        element: <Podvig />,
       },
     ],
   },

@@ -3,6 +3,7 @@ import distribution from "../../assets/projects/distribution.png";
 import notif from "../../assets/projects/notif.jpg";
 import postman from "../../assets/projects/postman.jpg";
 import shd from "../../assets/projects/shd.webp";
+import podvig from "../../assets/projects/podvig.jpg";
 import styles from "./index.module.scss";
 import { ROUTES } from "../../../../share/consts";
 
@@ -37,6 +38,13 @@ const ProjectsList = () => {
             src={shd}
             descrpt={"Система управления SpaceSAN"}
             link={`${ROUTES.main}/${ROUTES.shd}`}
+          ></GalleryCard>
+        </li>
+        <li className={styles["projects__project-list-item"]}>
+          <GalleryCard
+            src={podvig}
+            descrpt={"Подвиг"}
+            link={`${ROUTES.main}/${ROUTES.podvig}`}
           ></GalleryCard>
         </li>
       </ul>

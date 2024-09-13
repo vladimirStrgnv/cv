@@ -7,4 +7,5 @@ export const ROUTES = {
   any: "*",
   distribution: "distribution",
   shd: "shd",
+  podvig: "podvig",
 };
