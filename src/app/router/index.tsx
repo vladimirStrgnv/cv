@@ -10,6 +10,7 @@ import { NotifPage } from "../../pages/NotifPage";
 import { DistributionPage } from "../../pages/DistributionPage";
 import { ShdPage } from "../../pages/Shd";
 import { Podvig } from "../../pages/Podvig";
+import { Apex } from "../../pages/Apex";
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const BrowserRouter = createBrowserRouter([
       {
         path: ROUTES.podvig,
         element: <Podvig />,
+      },
+      {
+        path: ROUTES.apex,
+        element: <Apex />,
       },
     ],
   },

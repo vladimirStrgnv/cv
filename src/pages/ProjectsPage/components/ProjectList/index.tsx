@@ -4,6 +4,7 @@ import notif from "../../assets/projects/notif.jpg";
 import postman from "../../assets/projects/postman.jpg";
 import shd from "../../assets/projects/shd.webp";
 import podvig from "../../assets/projects/podvig.jpg";
+import apex from "../../assets/projects/apex.png";
 import styles from "./index.module.scss";
 import { ROUTES } from "../../../../share/consts";
 
@@ -45,6 +46,13 @@ const ProjectsList = () => {
             src={podvig}
             descrpt={"Подвиг"}
             link={`${ROUTES.main}/${ROUTES.podvig}`}
+          ></GalleryCard>
+        </li>
+        <li className={styles["projects__project-list-item"]}>
+          <GalleryCard
+            src={apex}
+            descrpt={"AppexBit"}
+            link={`${ROUTES.main}/${ROUTES.apex}`}
           ></GalleryCard>
         </li>
       </ul>

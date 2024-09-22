@@ -1,0 +1,23 @@
+.main {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.img img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+@media (max-width: 678px) {
+    .img img {
+        height: 35vh;
+        object-fit: cover;
+    }
+}

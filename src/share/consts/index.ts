@@ -8,4 +8,5 @@ export const ROUTES = {
   distribution: "distribution",
   shd: "shd",
   podvig: "podvig",
+  apex: "apex",
 };
