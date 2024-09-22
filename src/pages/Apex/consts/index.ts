@@ -15,7 +15,7 @@ export const DISTRIBUTION__PAGE__DATA = {
   title: "P2P процессинг",
   images: distribution,
   descrpt:
-    "Биржа для p2p процессинг, в которой можно принимать участие, как в роли клиента, так и в роле трейдера",
+    "Биржа для p2p процессинга, в которой можно принимать участие, как в роли клиента, так и в роли трейдера",
   link: "https://appexbit.net/login",
   tech: "React; React Router; mui; Rtk; yup + formik; TS; react-mask",
 };
