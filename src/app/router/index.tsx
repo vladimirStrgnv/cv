@@ -47,10 +47,10 @@ const BrowserRouter = createBrowserRouter([
         path: ROUTES.podvig,
         element: <Podvig />,
       },
-      {
-        path: ROUTES.apex,
-        element: <Apex />,
-      },
+      // {
+      //   path: ROUTES.apex,
+      //   element: <Apex />,
+      // },
     ],
   },
 ]);

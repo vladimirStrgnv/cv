@@ -48,13 +48,13 @@ const ProjectsList = () => {
             link={`${ROUTES.main}/${ROUTES.podvig}`}
           ></GalleryCard>
         </li>
-        <li className={styles["projects__project-list-item"]}>
+        {/* <li className={styles["projects__project-list-item"]}>
           <GalleryCard
             src={apex}
             descrpt={"AppexBit"}
             link={`${ROUTES.main}/${ROUTES.apex}`}
           ></GalleryCard>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
